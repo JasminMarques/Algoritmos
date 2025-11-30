@@ -1,8 +1,0 @@
-flask
-gunicorn
-numpy
-pandas
-torch==2.2.2
-Pillow
-scikit-learn==1.7.2
-facenet-pytorch
