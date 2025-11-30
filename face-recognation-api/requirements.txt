@@ -1,0 +1,8 @@
+flask
+gunicorn
+numpy
+pandas
+torch==2.1.0 --extra-index-url https://download.pytorch.org/whl/cpu
+Pillow
+scikit-learn==1.7.2
+facenet-pytorch
