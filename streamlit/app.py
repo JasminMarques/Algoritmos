@@ -8,7 +8,7 @@ import numpy as np
 @st.cache_resource
 def carregar_modelo():
     # Use 'rb' (read binary) para carregar o arquivo pickle
-    with open('seu_modelo.pkl', 'rb') as f:
+    with open('embeddings.pkl', 'rb') as f:
         modelo = pickle.load(f)
     return modelo
 
@@ -36,3 +36,4 @@ if imagem_capturada is not None:
     
     st.success(f"Pessoa Reconhecida: **{nome_reconhecido}**")
     st.image(imagem_capturada, caption="Foto Processada", width=300)
+
