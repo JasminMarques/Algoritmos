@@ -1,0 +1,7 @@
+streamlit
+numpy
+pandas
+scikit-learn
+torch
+facenet-pytorch
+# E quaisquer outras dependências que seu modelo precisa
